@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../interfaces/products-interface';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -7,6 +8,7 @@ import { Product } from '../interfaces/products-interface';
 export class CartService {
   private cartKey = 'ecommerce-cart';
   cartItems: any[] = [];
+  cartValue = new BehaviorSubject<any>([])
 
   constructor() {
     const savedCart = localStorage.getItem(this.cartKey);
@@ -38,6 +40,7 @@ export class CartService {
   }
 
   getCartItems() {
+    this.cartValue.next(this.cartItems);
     return this.cartItems;
   }
 }

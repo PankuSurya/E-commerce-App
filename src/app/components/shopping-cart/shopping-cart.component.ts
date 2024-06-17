@@ -27,7 +27,7 @@ export class ShoppingCartComponent {
 
   getTotalPrice(): number {
     return this.cartItems.reduce((total, item) => {
-      return total + item.product.price * item.variants.quantity;
+      return total + (item.product.price * item.variants[0].quantity);
     }, 0);
   }
 }

@@ -26,7 +26,7 @@ export class LoginComponent {
   onSubmit() {
     const { username, password } = this.loginForm.value;
     if (this.authService.login(username, password)) {
-      this.router.navigate(['/']);
+      this.router.navigate(['/product']);
     } else {
       this.errorMessage = 'Invalid credentials';
       alert('Invalid credentials');

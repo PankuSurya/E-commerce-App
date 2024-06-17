@@ -4,12 +4,20 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { LoginComponent } from './components/login/login.component';
+import { HeaderComponent } from './components/header/header.component';
 
 const routes: Routes = [
-  { path: '', component: ProductListComponent },
-  { path: 'products/:id', component: ProductDetailComponent },
-  { path: 'cart', component: ShoppingCartComponent },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
+  {
+    path: '',
+    component: HeaderComponent,
+    children: [
+      { path: 'product', component: ProductListComponent },
+      { path: 'products/:id', component: ProductDetailComponent },
+      { path: 'cart', component: ShoppingCartComponent },
+    ],
+  },
 ];
 
 @NgModule({

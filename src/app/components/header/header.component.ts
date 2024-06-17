@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit {
 
   constructor(private cartService: CartService) {}
   ngOnInit(): void {
-    const items = this.cartService.getCartItems().length;
-    console.log(items);
-    this.totalItem = items;
+    this.cartService.cartValue.subscribe((res) => {
+      this.totalItem = res.length;
+    });
   }
 }
