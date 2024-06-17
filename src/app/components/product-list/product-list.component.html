@@ -1,0 +1,13 @@
+<div class="conatiner">
+  <div class="sorting-button">
+    <button (click)="sortByPrice()">Sort by Price</button>
+  </div>
+  <div class="product-list">
+    <div *ngFor="let product of products" class="product-item">
+      <img [src]="product.imageUrl" alt="{{ product.name }}" />
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.price | currency : "INR" }}</p>
+      <button routerLink="/products/{{ product.id }}">View Details</button>
+    </div>
+  </div>
+</div>

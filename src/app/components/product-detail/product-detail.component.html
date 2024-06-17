@@ -1,0 +1,23 @@
+<div *ngIf="product" class="product-detail">
+  <img [src]="product.imageUrl" alt="{{ product.name }}" />
+  <h2>{{ product.name }}</h2>
+  <h4>{{ product.description }}</h4>
+  <h3>{{ product.price | currency : "INR" }}</h3>
+
+  <form [formGroup]="variantForm">
+    <div
+      formArrayName="variants"
+      *ngFor="let variant of variants.controls; let i = index"
+    >
+      <div [formGroupName]="i">
+        <label>Size:</label>&nbsp;
+        <input formControlName="size" readonly />&nbsp;
+        <label>Color:</label>&nbsp;
+        <input formControlName="color" readonly />&nbsp;
+        <label>Quantity:</label>&nbsp;
+        <input type="number" formControlName="quantity" />
+      </div>
+    </div>
+  </form>
+  <button (click)="addToCart()" class="add-to-cart">Add to Cart</button>
+</div>

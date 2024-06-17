@@ -1,0 +1,16 @@
+<div class="shopping-cart">
+  <div *ngFor="let item of cartItems; let i = index" class="cart-item">
+    <img [src]="item.product.imageUrl" alt="{{ item.product.name }}" />
+    <h3>{{ item.product.name }}</h3>
+    <h3>{{ item.product.price | currency : "INR" }}</h3>
+    <div *ngFor="let variant of item.variants">
+      <label>Size: {{ variant.size }}</label
+      >&nbsp;&nbsp;
+      <label>Color: {{ variant.color }}</label>
+    </div>
+    <button (click)="removeItem(i)">Remove</button>
+  </div>
+  <div class="cart-total">
+    <h3>Total: {{ getTotalPrice() | currency : "INR" }}</h3>
+  </div>
+</div>

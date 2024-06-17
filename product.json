@@ -1,0 +1,269 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bag",
+      "price": 19.99,
+      "description": "A comfortable bag",
+      "imageUrl": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Red",
+          "stock": 50
+        },
+        {
+          "size": "M",
+          "color": "Red",
+          "stock": 40
+        },
+        {
+          "size": "L",
+          "color": "Red",
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "price": 49.99,
+      "description": "Stylish T-shirt",
+      "imageUrl": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "variants": [
+        {
+          "size": "32",
+          "color": "Blue",
+          "stock": 20
+        },
+        {
+          "size": "34",
+          "color": "Blue",
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Monitor",
+      "price": 79.99,
+      "description": "OLED Gaming Monitor",
+      "imageUrl": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "variants": [
+        {
+          "size": "8",
+          "color": "White",
+          "stock": 15
+        },
+        {
+          "size": "9",
+          "color": "White",
+          "stock": 10
+        },
+        {
+          "size": "10",
+          "color": "White",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hoodie",
+      "price": 39.99,
+      "description": "A cozy hoodie for cold weather",
+      "imageUrl": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "variants": [
+        {
+          "size": "S",
+          "color": "Black",
+          "stock": 25
+        },
+        {
+          "size": "M",
+          "color": "Black",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Women T-shirt",
+      "price": 14.99,
+      "description": "A stylish T-shirt for women",
+      "imageUrl": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Blue",
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chip",
+      "price": 9.99,
+      "description": "256 GB Memory Chip",
+      "imageUrl": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "variants": [
+        {
+          "size": "M",
+          "color": "White",
+          "stock": 100
+        },
+        {
+          "size": "L",
+          "color": "White",
+          "stock": 80
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Jacket",
+      "price": 89.99,
+      "description": "A warm winter jacket",
+      "imageUrl": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "variants": [
+        {
+          "size": "M",
+          "color": "Grey",
+          "stock": 15
+        },
+        {
+          "size": "L",
+          "color": "Grey",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Scarf",
+      "price": 19.99,
+      "description": "A warm woolen scarf",
+      "imageUrl": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Red",
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Gloves",
+      "price": 14.99,
+      "description": "Warm winter gloves",
+      "imageUrl": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "variants": [
+        {
+          "size": "M",
+          "color": "Black",
+          "stock": 30
+        },
+        {
+          "size": "L",
+          "color": "Black",
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Boots",
+      "price": 129.99,
+      "description": "Durable hiking boots",
+      "imageUrl": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "variants": [
+        {
+          "size": "9",
+          "color": "Brown",
+          "stock": 10
+        },
+        {
+          "size": "10",
+          "color": "Brown",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Sunglasses",
+      "price": 49.99,
+      "description": "Stylish UV-protection sunglasses",
+      "imageUrl": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Black",
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Watch",
+      "price": 199.99,
+      "description": "Elegant wristwatch",
+      "imageUrl": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Silver",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Backpack",
+      "price": 59.99,
+      "description": "A spacious and durable backpack",
+      "imageUrl": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Black",
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Belt",
+      "price": 24.99,
+      "description": "A stylish leather belt",
+      "imageUrl": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "variants": [
+        {
+          "size": "M",
+          "color": "Brown",
+          "stock": 20
+        },
+        {
+          "size": "L",
+          "color": "Brown",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Hat",
+      "price": 29.99,
+      "description": "A warm winter hat",
+      "imageUrl": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Grey",
+          "stock": 50
+        }
+      ]
+    }
+  ]
+}

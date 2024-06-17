@@ -1,0 +1,40 @@
+.nav {
+  height: 10vh;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin-left: 5vw;
+  color: gold;
+}
+
+nav ul {
+  margin-right: 5vw;
+  display: inline-flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.search {
+  margin: 0 10vw;
+  display: flex;
+  flex: 1;
+}
+
+.search input {
+  flex: 1;
+  height: 5vh;
+  border: 1px solid indianred;
+  border-right: none;
+}
